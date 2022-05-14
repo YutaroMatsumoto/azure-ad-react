@@ -2,9 +2,9 @@ import { Configuration } from '@azure/msal-browser'
 
 export const msalConfig: Configuration = {
   auth: {
-    clientId: '0c749501-1d72-4172-bdcc-b4ad0d1996ff',
+    clientId: '3726e553-ced5-4d71-8de7-39bdc4cdc2bf',
     authority:
-      'https://login.microsoftonline.com/6a2c7592-3ad5-4f79-b975-0bfbc0bf9550', // This is a URL (e.g. https://login.microsoftonline.com/{your tenant ID})
+      'https://login.microsoftonline.com/ca147381-dfa2-4e24-8840-8673d32c3438', // This is a URL (e.g. https://login.microsoftonline.com/{your tenant ID})
     redirectUri: 'http://localhost:3000',
   },
   cache: {
