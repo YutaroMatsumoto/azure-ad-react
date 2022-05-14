@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import { useIsAuthenticated } from '@azure/msal-react'
-import { SigninButton } from './SigninButton'
-import { SignoutButton } from './SignoutButton'
+import { SigninButton } from 'src/components/SigninButton'
+import { SignoutButton } from 'src/components/SignoutButton'
 
 /**
  * Renders the navbar component with a sign-in button if a user is not authenticated
