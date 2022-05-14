@@ -21,7 +21,7 @@ export const SigninButton = () => {
       className="ml-auto"
       onClick={() => handleLogin(instance)}
     >
-      Sign in using Redirect
+      ログイン
     </Button>
   )
 }
