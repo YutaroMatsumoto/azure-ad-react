@@ -1,10 +1,17 @@
 import React from 'react'
+import {
+  AuthenticatedTemplate,
+  UnauthenticatedTemplate,
+} from '@azure/msal-react'
 import { PageLayout } from './components/PageLayout'
 
 function App() {
   return (
     <PageLayout>
-      <p>This is the main app content!</p>
+      <AuthenticatedTemplate>
+        <p>ログインしています！</p>
+      </AuthenticatedTemplate>
+      <UnauthenticatedTemplate>ログインしてください！</UnauthenticatedTemplate>
     </PageLayout>
   )
 }
