@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import { useIsAuthenticated } from '@azure/msal-react'
 import { SigninButton } from './SigninButton'
+import { SignoutButton } from './SignoutButton'
 
 /**
  * Renders the navbar component with a sign-in button if a user is not authenticated
@@ -20,7 +21,7 @@ export const PageLayout = ({ children }: React.PropsWithChildren<Props>) => {
         <a className="navbar-brand" href="/">
           MSAL React Tutorial
         </a>
-        {isAuthenticated ? <span>Signed In</span> : <SigninButton />}
+        {isAuthenticated ? <SignoutButton /> : <SigninButton />}
       </Navbar>
       <h5>
         <p>
