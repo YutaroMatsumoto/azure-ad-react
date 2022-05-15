@@ -64,7 +64,7 @@ export function ProfileContent() {
         <ProfileData graphData={graphData} />
       ) : (
         <Button variant="secondary" onClick={RequestProfileData}>
-          Request Profile Information
+          graphAPIを実行
         </Button>
       )}
     </>

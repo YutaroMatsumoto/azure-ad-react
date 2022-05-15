@@ -16,9 +16,7 @@ export const ProfileData = ({ graphData }: Props) => {
       <p>
         <strong>Last Name: </strong> {graphData.surname}
       </p>
-      <p>
-        <strong>Email: </strong> {graphData.userPrincipalName}
-      </p>
+      <p>{/* <strong>Email: </strong> {graphData.userPrincipalName} */}</p>
       <p>
         <strong>Id: </strong> {graphData.id}
       </p>
